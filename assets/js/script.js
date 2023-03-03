@@ -2,86 +2,68 @@ const questionContainer = document.getElementById('question-container')
 
 const questions = [
   {
-    'question': 'What clef is this?',
-    'a': 'Treble Clef',
-    'b': 'Tenor Clef',
-    'c': 'Bass Clef',
-    'd': 'Alto Clef',
-    'correctAnswer': 'a'
+    question: 'What clef is this?',
+    choices: ['Treble Clef', 'Tenor Clef', 'Bass Clef', 'Alto Clef'],
+    imgLink: "assets/images/clef-1.jpg",
+    answerIndex: 0,
   },
   {
-    'question': 'What type of rest is this?',
-    'a': 'Minim Rest',
-    'b': 'Semiquaver Rest',
-    'c': 'Crotchet Rest',
-    'd': 'Quaver Rest',
-    'correctAnswer': 'c'
+    question: 'What type of rest is this?',
+    choices: ['Minim Rest', 'Semiquaver Rest', 'Crotchet Rest', 'Quaver Rest'],
+    imgLink: 'assets/images/rest-1.png',
+    answerIndex: 2,
   },
   {
-    'question': 'What is the key signature?',
-    'a': 'E Minor',
-    'b': 'D Major',
-    'c': 'E Major',
-    'd': 'G Major',
-    'correctAnswer': 'b'
+    question: 'What is the key signature?',
+    choices: ['E Minor', 'D Major', 'E Major', 'G Major'] ,
+    imgLink: 'assets/images/key-signature1.jpg',
+    answerIndex: 1,
   },
   {
-    'question': 'What is the name of this percussion instrument?',
-    'a': 'Cymbals',
-    'a': 'Xylophone',
-    'a': 'Side Drum',
-    'a': 'Timpani',
-    'correctAnswer': 'a'
+    question: 'What is the name of this percussion instrument?',
+    choices: ['Cymbals', 'Xylophone', 'Side Drum', 'Timpani'],
+    imgLink: 'assets/images/orchestra-1.png',
+    answerIndex: 3,
   },
   {
-    'question': 'This rest is a:', 
-    'a': 'Quaver Rest',
-    'b': 'Semibreve Rest',
-    'c': 'Semiquaver Rest',
-    'd': 'Minim Rest',
-    'correctAnswer': 'a'
+    question: 'This rest is a:',
+    choices: ['Quaver Rest', 'Semibreve Rest', 'Semiquaver Rest', 'Minim Rest'], 
+    imgLink: 'assets/images/rest-2.png',
+    answerIndex: 0,
   },
   {
-    'question': 'The time signature indicates:', 
-    'a': '2 minim beats in a bar',
-    'b': '4 quaver beats in a bar',
-    'c': '4 minim beats in a bar',
-    'd': '4 crotchet beats in a bar',
-    'correctAnswer': 'd'
+    question: 'The time signature indicates:', 
+    choices: ['2 minim beats in a bar', '4 quaver beats in a bar', '4 minim beats in a bar', '4 crotchet beats in a bar'],
+    imgLink: 'assets/images/music-symbol1.png',
+    answerIndex: 3,
  },
  {
-    'question': 'What is the key signature?',
-    'a': 'G Major',
-    'b': 'G Minor',
-    'c': 'F# Minor',
-    'd': 'C Major',
-    'correctAnswer': 'a'
+    question: 'What is the key signature?',
+    choices: ['G Major', 'G Minor', 'F# Minor', 'C Major'],
+    imgLink: 'assets/images/key-signature2.png',
+    answerIndex: 0,
 },
 {
-    'question': 'Which note is this?',
-    'a': 'F',
-    'b': 'Middle C',
-    'c': 'A',
-    'd': 'E',
-    'correctAnswer': 'b'
+    question: 'Which note is this?',
+    choices: ['F', 'Middle C', 'A', 'E'],
+    imgLink: 'assets/images/note.png',
+    answerIndex: 1,
 },
 {
-    'question': 'In which orchestral family does this instrument belong?',
-    'a': 'Percussion',
-    'b': 'Brass',
-    'c': 'Strings',
-    'd': 'Woodwind',
-    'correctAnswer': 'd'
+    question: 'In which orchestral family does this instrument belong?',
+    choices: ['Percussion', 'Brass', 'Strings', 'Woodwind'],
+    imgLink: 'assets/images/orchestra-2.png',
+    answerIndex: 3,
 },
 {
-    'question': 'This rest is a:',
-    'a': 'Semibreve Rest',
-    'b': 'Demisemiquaver Rest',
-    'c': 'Crotchet Rest',
-    'd': 'Semiquaver Rest',
-    'correctAnswer': 'b'
+    question: 'This rest is a:',
+    choices: ['Semibreve Rest', 'Demisemiquaver Rest', 'Crotchet Rest', 'Semiquaver Rest'],
+    imgLink: 'assets/images/rest-3.png',
+    answerIndex: 1,
 }
-]
+];
+
+const quizContainer = document.getElementById('quiz-container');
 
 let currentQuestionIndex = 0
 
