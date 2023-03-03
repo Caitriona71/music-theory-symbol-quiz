@@ -80,5 +80,5 @@ const questions = [
     'c': 'Crotchet Rest',
     'd': 'Semiquaver Rest',
     'correctAnswer': 'b'
-},
+}
 ]
