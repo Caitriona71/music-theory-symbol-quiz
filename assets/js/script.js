@@ -82,3 +82,7 @@ const questions = [
     'correctAnswer': 'b'
 }
 ]
+
+let currentQuestionIndex = 0
+
+questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
