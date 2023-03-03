@@ -1,5 +1,3 @@
-const questionContainer = document.getElementById('question-container')
-
 const questions = [
   {
     question: 'What clef is this?',
@@ -125,6 +123,15 @@ choiceButton.id = choice;
   quizContainer.appendChild(choicesContainer)
 }
 
+// Scores
+let currentScore = parseInt(document.getElementById("correct-answers").innerText);
+let bonusScore = parseInt(document.getElementById("bonus-points").innerText);
+let totalScore = parseInt(document.getElementById("total").innerText);
+
+// Correct and incorrect answer pop-ups
+let popUp = document.getElementById("answer-pop-up");
+
+
 function checkAnswer(event) {
   let clickedButton = event.currentTarget;
 
@@ -135,12 +142,12 @@ function checkAnswer(event) {
   let currentQuestionAnswer =
     currentQuestion.choices[currentQuestion.answerIndex];
 
-  if (userAnswer === currentQuestionAnswer) {
-    alert("Correct");
-  } else {
-    alert("Wrong");
-  }
-
+//  if (userAnswer === currentQuestionAnswer) {
+//    alert("Correct");
+//  } else {
+//    alert("Wrong");
+//  }
+//
   currentQuestionIndex = currentQuestionIndex + 1;
   showNextQuestion();
 }

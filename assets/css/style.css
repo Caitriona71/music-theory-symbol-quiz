@@ -1,5 +1,7 @@
 body {
-    
+    background-image: url("../images/background-image3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -8,7 +10,61 @@ header {
   }
 
 h1 {
+        color: #ffffff;
         text-align: center;
         margin: 50px auto; 
   }
+
+  button {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0;
+    background-color: goldenrod;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+  }
+
+  #start-game-button {
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: goldenrod;
+  }
+
+  #quiz-container > img {
+    margin: 5px auto;
+    display: block;
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    position: relative;
+    border: 10px solid goldenrod;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+#question-container {
+    margin: 5px auto;
+    display: block;
+    width: 300px;
+    position: relative;
+    color:#ffffff;
+
+}
+
+#choices-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+  }
+  
   
