@@ -4,7 +4,7 @@ const questions = [
   {
     question: 'What clef is this?',
     choices: ['Treble Clef', 'Tenor Clef', 'Bass Clef', 'Alto Clef'],
-    imgLink: "assets/images/clef-1.jpg",
+    imgLink: 'assets/images/clef-1.jpg',
     answerIndex: 0,
   },
   {
@@ -76,7 +76,7 @@ function startGame(event) {
 
   showNextQuestion();
 
-  startGameButton.textContent = "Restart Game";
+  startGameButton.textContent = 'Restart Game';
 }
 
 function getNextQuestion() {
@@ -89,25 +89,57 @@ function getNextQuestion() {
 
 function showNextQuestion() {
   
-
   let currentQuestion = getNextQuestion()
 
-  quizContainer.innerHTML = ""
+  quizContainer.innerHTML = ''
 
   let questionTextHeader = document.createElement('h2')
-  questionTextHeader.id = "question-text-header"
+  questionTextHeader.id = 'question-text-header'
   questionTextHeader.textContent = currentQuestion.question;
   quizContainer.appendChild(questionTextHeader)
   
-
   let questionImg = document.createElement('img')
   questionImg.src = currentQuestion.imgLink
   quizContainer.appendChild(questionImg)
 
   let choicesContainer = document.createElement('div')
-  choicesContainer.id = "choices-container"
+  choicesContainer.id = 'choices-container'
 
-  choicesContainer.innerHTML = "";
+  choicesContainer.innerHTML = '';
 
+  for (let choice of currentQuestion.choices) {
+
+    let choiceButton = document.createElement('button');
+    
+    choiceButton.textContent = choice;
+    choiceButton.classList.add('answer-button');
+
+
+choiceButton.id = choice;
+
+    choiceButton.addEventListener("click", checkAnswer);
+
+    choicesContainer.appendChild(choiceButton);
+  }
+
+  quizContainer.appendChild(choicesContainer)
+}
+
+function checkAnswer(event) {
+  let clickedButton = event.currentTarget;
+
+  let userAnswer = clickedButton.id;
+
+  let currentQuestion = questions[currentQuestionIndex];
+
+  let currentQuestionAnswer =
+    currentQuestion.choices[currentQuestion.answerIndex];
+
+  if (userAnswer === currentQuestionAnswer) {
+    alert("Correct");
+  } else {
+    alert("Wrong");
+  }
+  
 
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
