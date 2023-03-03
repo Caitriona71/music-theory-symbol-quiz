@@ -100,4 +100,8 @@ function showNextQuestion() {
   quizContainer.appendChild(questionTextHeader)
   
 
+  let questionImg = document.createElement('img')
+  questionImg.src = currentQuestion.imgLink
+  quizContainer.appendChild(questionImg)
+
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
