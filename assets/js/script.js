@@ -140,6 +140,15 @@ function checkAnswer(event) {
   } else {
     alert("Wrong");
   }
-  
 
-questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
+  currentQuestionIndex = currentQuestionIndex + 1;
+  showNextQuestion();
+}
+
+
+function endGame() {
+  alert("Game over");
+
+  quizContainer.innerHTML = "";
+  startGameButton.textContent = "Start Game";
+}
