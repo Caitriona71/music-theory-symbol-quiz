@@ -66,6 +66,8 @@ const questions = [
 const quizContainer = document.getElementById('quiz-container');
 const startGameButton = document.getElementById('start-game-button');
 
-let currentQuestionIndex = 0
+let currentQuestionIndex;
+
+startGameButton.addEventListener('click', startGame);
 
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
