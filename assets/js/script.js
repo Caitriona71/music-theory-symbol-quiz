@@ -73,10 +73,23 @@ startGameButton.addEventListener('click', startGame);
 function startGame(event) {
   console.log(event);
   currentQuestionIndex = 0;
-  
+
   showNextQuestion();
 
   startGameButton.textContent = "Restart Game";
 }
+
+function getNextQuestion() {
+  if (currentQuestionIndex >= questions.length) {
+    endGame();
+  }
+  
+  return questions[currentQuestionIndex]
+}
+
+function showNextQuestion() {
+  
+
+  let currentQuestion = getNextQuestion()
 
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
