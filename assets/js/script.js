@@ -107,5 +107,7 @@ function showNextQuestion() {
   let choicesContainer = document.createElement('div')
   choicesContainer.id = "choices-container"
 
+  choicesContainer.innerHTML = "";
+
 
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
