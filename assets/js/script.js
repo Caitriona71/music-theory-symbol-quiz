@@ -104,4 +104,8 @@ function showNextQuestion() {
   questionImg.src = currentQuestion.imgLink
   quizContainer.appendChild(questionImg)
 
+  let choicesContainer = document.createElement('div')
+  choicesContainer.id = "choices-container"
+
+
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
