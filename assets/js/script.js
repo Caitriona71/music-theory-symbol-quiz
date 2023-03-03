@@ -92,4 +92,6 @@ function showNextQuestion() {
 
   let currentQuestion = getNextQuestion()
 
+  quizContainer.innerHTML = ""
+
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
