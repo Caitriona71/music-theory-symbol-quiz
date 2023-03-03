@@ -94,4 +94,10 @@ function showNextQuestion() {
 
   quizContainer.innerHTML = ""
 
+  let questionTextHeader = document.createElement('h2')
+  questionTextHeader.id = "question-text-header"
+  questionTextHeader.textContent = currentQuestion.question;
+  quizContainer.appendChild(questionTextHeader)
+  
+
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
