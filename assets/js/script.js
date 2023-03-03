@@ -70,4 +70,13 @@ let currentQuestionIndex;
 
 startGameButton.addEventListener('click', startGame);
 
+function startGame(event) {
+  console.log(event);
+  currentQuestionIndex = 0;
+  
+  showNextQuestion();
+
+  startGameButton.textContent = "Restart Game";
+}
+
 questionContainer.innerHTML = generateQuestionHTML(questions[currentQuestionIndex])
