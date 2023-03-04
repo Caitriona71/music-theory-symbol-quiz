@@ -1,7 +1,10 @@
 body {
     background-image: url("../images/background-image3.jpg");
+    background-position: center-center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
 }
 
 header {
@@ -15,7 +18,7 @@ h1 {
         margin: 50px auto; 
   }
 
-  button {
+button {
     display: inline-block;
     margin: 10px;
     width: 250px;
@@ -26,7 +29,7 @@ h1 {
     font-size: 20px;
   }
 
-  #start-game-button {
+#start-game-button {
     margin-bottom: 20px;
     display: block;
     border-radius: 10px;
@@ -36,7 +39,7 @@ h1 {
     background-color: goldenrod;
   }
 
-  #quiz-container > img {
+#quiz-container > img {
     margin: 5px auto;
     display: block;
     width: 300px;
@@ -53,18 +56,66 @@ h1 {
     display: block;
     width: 300px;
     position: relative;
-    color:#ffffff;
+}
 
+div {
+  color: #ffffff;
+  margin: auto;
 }
 
 #choices-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     max-width: 700px;
     justify-content: center;
     align-items: center;
   }
-  
+
+#answer-pop-up {
+    position: fixed;
+    color:#ffffff;
+    top: 250px;
+    width: 250px;
+    max-width: 60%;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    display: none;
+}
+
+#correct-answers {
+    color:#ffffff
+}
+
+/* Media queries */
+
+/* For mobile phones: */
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+
+
+}
+
+
+
+
   
