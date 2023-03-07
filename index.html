@@ -9,12 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Music Quiz</title>
 
 </head>
 <body>
+
+    <section id="rules">
+        <div id="rules-container">
+            <h3><i>How to Play</i></h3>
+            <span><strong>1.</strong> Try the quiz to test your knowledge of music theory</span><br>
+            <span><strong>2.</strong> There are 10 multiple choice questions</span><br>
+            <span><strong>3.</strong> Answer each question by selecting an answer from the 4 multiple choice options</span><br>
+            <span><strong>4.</strong> Select "restart game" to start the quiz again</span>    
+        </div>
+    </section>
+    
     <header>
         <h1>Music Theory Quiz</h1>
     </header>
@@ -33,9 +45,16 @@
                 <button id="D" class="option">D - Alto Clef</button>
             </div> -->
         </div>
+            
 </section>
 
+
+<footer>
+    <p><strong>Correct Answers:</strong> <span id='correct-answers'>0</span></p>
+</footer>
+
 <script src="assets/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
 
 </body>
 

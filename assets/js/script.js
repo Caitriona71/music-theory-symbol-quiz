@@ -77,11 +77,13 @@ function startGame(event) {
   startGameButton.textContent = 'Restart Game';
 }
 
+  
 function getNextQuestion() {
   if (currentQuestionIndex >= questions.length) {
     endGame();
+    return
   }
-  
+ 
   return questions[currentQuestionIndex]
 }
 
@@ -89,6 +91,9 @@ function showNextQuestion() {
   
   let currentQuestion = getNextQuestion()
 
+if(!currentQuestion){
+  return
+}
   quizContainer.innerHTML = ''
 
   let questionTextHeader = document.createElement('h2')
@@ -115,7 +120,7 @@ function showNextQuestion() {
 
 choiceButton.id = choice;
 
-    choiceButton.addEventListener("click", checkAnswer);
+    choiceButton.addEventListener('click', checkAnswer);
 
     choicesContainer.appendChild(choiceButton);
   }
@@ -133,10 +138,10 @@ function checkAnswer(event) {
   let currentQuestionAnswer =
     currentQuestion.choices[currentQuestion.answerIndex];
 
-  if (userAnswer === currentQuestionAnswer) {
-    alert("Correct");
+    if (userAnswer === currentQuestionAnswer) {
+     alert('Correct');
   } else {
-    alert("Wrong");
+    alert('Wrong');
   }
 
   currentQuestionIndex = currentQuestionIndex + 1;
@@ -145,8 +150,8 @@ function checkAnswer(event) {
 
 
 function endGame() {
-  alert("Game over");
+  alert('Game over');
 
-  quizContainer.innerHTML = "";
-  startGameButton.textContent = "Start Game";
+  quizContainer.innerHTML = '';
+  startGameButton.textContent = 'Start Game';
 }
