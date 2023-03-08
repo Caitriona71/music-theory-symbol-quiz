@@ -19,7 +19,7 @@ A relevant background image, a "How to play" section lists the rules for how to 
 * The background image is relevant to the theme of the site and was chosen over a plain colored background.
 <br>
 
-![questions images](/assets/images/clef-1.jpg)
+![questions images](/assets/images/orchestra-1.png) ![questions images](/assets/images/orchestra-2.png)
 
 * The relevant question images are from Clipart Library
 
@@ -31,10 +31,17 @@ A relevant background image, a "How to play" section lists the rules for how to 
 * The header font Boogaloo was chosen as it is fun and visually striking. If the font isn't imported correctly, cursive will serve as fallback. 
 
 ### **Colors**
-* The color scheme for the website was chosen to blend in with the background image. The answer buttons have a 2px solid (#ffffff) border and when hovered over, the answer buttons change colors from (#goldenrod) to (#0a0500). The "start game" and "restart game" buttons are (#goldenrod) with a 2px solid (#ffffff) border also. A border radius of 10px was used on the buttons to blend in with the header font.
+<br>
 
-![color scheme](/assets/screenshots/color-scheme.png)<br>
-![color scheme](/assets/screenshots/color-scheme2.png)
+![answer buttons](/assets/screenshots/answer-buttons.png)
+
+* The color scheme for the website was chosen to blend in with the background image. The answer buttons have a 2px solid (#ffffff) border and when hovered over, they change colors from (#goldenrod) to (#0a0500). The "start game" and "restart game" buttons are (#goldenrod) with a 2px solid (#ffffff) border also. A border radius of 10px was used on the buttons to blend in with the header font.
+<br>
+
+![color scheme](/assets/screenshots/color-scheme1.png)<br>
+<br>
+
+![color scheme](/assets/screenshots/goldenrod.png)
 
 
 ## **Technologies Used**
@@ -66,24 +73,11 @@ Images from Clipart Library [http://clipart-library.com/]
 The site contains 10 multiple choice answer questions.  The user has the option of selecting one answer from a selection of four.  An alert message informs them if their answer is correct or wrong and they have the option of restarting the quiz when the quiz is over or after they have started the quiz. The site has been tested on different devices and it works well. 
 <br>
 
-![Device Testing](/assets/screenshots/site-testing1.png)
-<br>
-<br>
-![Device Testing](/assets/screenshots/site-testing2.png)
-<br>
-<br>
-![Device Testing](/assets/screenshots/site-testing3.png)
-<br>
-<br>
-![Device Testing](/assets/screenshots/site-testing4.png)
-<br>
-<br>
-
 ## **Validator Testing**
 ### ***Lighthouse*** - The quiz was tested for performance using Lighthouse.
 <br>
 
-![Lighthouse Performance](/assets/screenshots/light-house.png)
+![Lighthouse Performance](/assets/screenshots/lighthouse.png)
 <br>
 <br>
 ### ***W3C HTML Validator*** - HTML code was tested and returned no errors.
