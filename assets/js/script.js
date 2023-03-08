@@ -87,6 +87,7 @@ function getNextQuestion() {
   return questions[currentQuestionIndex]
 }
 
+
 function showNextQuestion() {
   
   let currentQuestion = getNextQuestion()
@@ -127,6 +128,7 @@ choiceButton.id = choice;
 
   quizContainer.appendChild(choicesContainer)
 }
+
 
 function checkAnswer(event) {
   let clickedButton = event.currentTarget;

@@ -2,14 +2,40 @@
 Music Theory Quiz is a simple multiple choice answers music theory quiz with images.  It's aim is to test the user's knowledge of music theory.  
 <br>
 
-![Am I Responsive](/assets/screenshots/responsive.png)
-
-This is the live site: [music-quiz](https://caitriona71-musicquiz-tf5qeirj9b3.ws-eu63.gitpod.io)
+This is the live site: [music-theory-symbol-quiz](https://8000-caitriona71-musictheory-al09nogg78y.ws-eu89b.gitpod.io/)
 
 ## **Features**
-A relevant background image, a start game button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects one answer, a scores counter, a restart game button which appears when the user has finished the quiz and alert messages telling the user if they have selected the correct answer.
+A relevant background image, a "How to play" section lists the rules for how to play the game, a "start game" button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects an answer, a "restart game" button which appears when the user has finished the quiz and alert messages informing the user whether they have selected the correct answer and alerting them when the game is over.
 <br>
 <br>
+
+## **Design**
+
+### **Imagery**
+<br>
+
+![background image](/assets/screenshots/background-image.jpg)
+
+* The background image is relevant to the theme of the site and was chosen over a plain colored background.
+<br>
+
+![questions images](/assets/images/clef-1.jpg)
+
+* The relevant question images are from Clipart Library
+
+### **Typography**
+<br>
+
+![background image](/assets/screenshots/header-font.png)
+
+* The header font Boogaloo was chosen as it is fun and visually striking. If the font isn't imported correctly, cursive will serve as fallback. 
+
+### **Colors**
+* The color scheme for the website was chosen to blend in with the background image. The answer buttons have a 2px solid (#ffffff) border and when hovered over, the answer buttons change colors from (#goldenrod) to (#0a0500). The "start game" and "restart game" buttons are (#goldenrod) with a 2px solid (#ffffff) border also. A border radius of 10px was used on the buttons to blend in with the header font.
+
+![color scheme](/assets/screenshots/color-scheme.png)<br>
+![color scheme](/assets/screenshots/color-scheme2.png)
+
 
 ## **Technologies Used**
 
@@ -20,7 +46,6 @@ A relevant background image, a start game button, a quiz of 10 questions with im
 * GitHub
 * [Google Fonts](https://fonts.google.com)
 * [TinyPNG](https://tinypng.com)
-* [AmIResponsive](https://ui.dev/amiresponsive)
 * [webformatter.com](https://webformatter.com)
 <br>
 <br>
@@ -28,6 +53,7 @@ A relevant background image, a start game button, a quiz of 10 questions with im
 ## **Future Improvements**
 
 * Various levels of difficulty could be included.
+* A score counter could be included.
 <br>
 <br>
 
@@ -37,7 +63,7 @@ Images from Clipart Library [http://clipart-library.com/]
 <br>
 
 ## **Testing**
-The site contains 10 multiple choice answer questions.  The user has the option of selecting one answer from a selection of four.  The score is calculated as the user progresses through the questions. They have the option of restarting the quiz when the quiz is over. The site has been tested on different devices and it works well. 
+The site contains 10 multiple choice answer questions.  The user has the option of selecting one answer from a selection of four.  An alert message informs them if their answer is correct or wrong and they have the option of restarting the quiz when the quiz is over or after they have started the quiz. The site has been tested on different devices and it works well. 
 <br>
 
 ![Device Testing](/assets/screenshots/site-testing1.png)
