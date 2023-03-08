@@ -7,7 +7,6 @@ This is the live site: [music-theory-symbol-quiz](https://caitriona71.github.io/
 ## **Features**
 A relevant background image, a "How to play" section lists the rules for how to play the game, a "start game" button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects an answer, a "restart game" button which appears when the user has finished the quiz and alert messages informing the user whether they have selected the correct answer and alerting them when the game is over.
 <br>
-<br>
 
 ## **Design**
 
@@ -55,18 +54,15 @@ A relevant background image, a "How to play" section lists the rules for how to 
 * [TinyPNG](https://tinypng.com)
 * [webformatter.com](https://webformatter.com)
 <br>
-<br>
 
 ## **Future Improvements**
 
 * Various levels of difficulty could be included.
 * A score counter could be included.
 <br>
-<br>
 
 ## **Content**
 Images from Clipart Library [http://clipart-library.com/]
-<br>
 <br>
 
 ## **Testing**
@@ -79,21 +75,20 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 
 ![Lighthouse Performance](/assets/screenshots/lighthouse.png)
 <br>
-<br>
+
 ### ***W3C HTML Validator*** - HTML code was tested and returned no errors.
 
 ![HTML Validator Test](/assets/screenshots/w3-html-validator.png)
 <br>
-<br>
+
 ### ***W3C CSS Validator*** - CSS code was tested and returned no errors.
 
 ![W3C CSS Validator Test](/assets/screenshots/w3-css-validator1.png)
 <br>
-<br>
+
 ### ***JS Hint Validator*** - Javascript code was tested and returned no errors.
 
 ![JSHintValidatorTest](/assets/screenshots/js-hint-validator.png)
-<br>
 <br>
 
 ## **Image Compression**
@@ -102,20 +97,18 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 
 Images were compressed with Tinypng [https://tinypng.com/]
 <br>
-<br>
+
 ## **Deployment**
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub respository, click on the "settings" tab.
 * From the Source Section drop-down menu, select the Main branch.
 * Once the Main branch has been selected, the page will be refreshed with a detailed ribbon display indicating that the project was successfully deployed.
 <br>
-<br>
 
 ## **Credits**
 * YouTube tutorials<br>
 * Clipart Library<br>
 * Tinypng
-<br>
 <br>
 
 ## **Acknowledgements**
