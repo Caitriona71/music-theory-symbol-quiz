@@ -14,7 +14,7 @@ A relevant background image, a "How to play" section lists the rules for how to 
 ### **Imagery**
 <br>
 
-![background image](/assets/screenshots/background-image3.jpg)
+![background image](/assets/screenshots/background-image3.jpg)<br>
 
 * The background image is relevant to the theme of the site and was chosen over a plain colored background.
 <br>
@@ -82,12 +82,12 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 <br>
 ### ***W3C HTML Validator*** - HTML code was tested and returned no errors.
 
-![W3C HTML Validator Test](https:/validator.w3.org/)
+![HTML Validator Test](/assets/screenshots/w3-html-validator.png)
 <br>
 <br>
 ### ***W3C CSS Validator*** - CSS code was tested and returned no errors.
 
-![W3C CSS Validator Test](/assets/screenshots/css-validator.png)
+![W3C CSS Validator Test](/assets/screenshots/w3-css-validator1.png)
 <br>
 <br>
 ### ***JS Hint Validator*** - Javascript code was tested and returned no errors.
@@ -95,10 +95,12 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 ![JSHintValidatorTest](/assets/screenshots/js-hint-validator.png)
 <br>
 <br>
-## **Image Compression**
-### ***Tinypng*** - Images were compressed with Tinypng.
 
-![TinyPng](https://tinypng.com)
+## **Image Compression**
+
+### ***Tinypng***
+
+Images were compressed with Tinypng [https://tinypng.com/]
 <br>
 <br>
 ## **Deployment**

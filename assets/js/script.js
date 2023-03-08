@@ -81,33 +81,33 @@ function startGame(event) {
 function getNextQuestion() {
   if (currentQuestionIndex >= questions.length) {
     endGame();
-    return
+    return;
   }
  
-  return questions[currentQuestionIndex]
+  return questions[currentQuestionIndex];
 }
 
 
 function showNextQuestion() {
   
-  let currentQuestion = getNextQuestion()
+  let currentQuestion = getNextQuestion();
 
 if(!currentQuestion){
-  return
+  return;
 }
-  quizContainer.innerHTML = ''
+  quizContainer.innerHTML = '';
 
-  let questionTextHeader = document.createElement('h2')
-  questionTextHeader.id = 'question-text-header'
+  let questionTextHeader = document.createElement('h2');
+  questionTextHeader.id = 'question-text-header';
   questionTextHeader.textContent = currentQuestion.question;
-  quizContainer.appendChild(questionTextHeader)
+  quizContainer.appendChild(questionTextHeader);
   
-  let questionImg = document.createElement('img')
-  questionImg.src = currentQuestion.imgLink
-  quizContainer.appendChild(questionImg)
+  let questionImg = document.createElement('img');
+  questionImg.src = currentQuestion.imgLink;
+  quizContainer.appendChild(questionImg);
 
-  let choicesContainer = document.createElement('div')
-  choicesContainer.id = 'choices-container'
+  let choicesContainer = document.createElement('div');
+  choicesContainer.id = 'choices-container';
 
   choicesContainer.innerHTML = '';
 
@@ -126,7 +126,7 @@ choiceButton.id = choice;
     choicesContainer.appendChild(choiceButton);
   }
 
-  quizContainer.appendChild(choicesContainer)
+  quizContainer.appendChild(choicesContainer);
 }
 
 
