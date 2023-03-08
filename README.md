@@ -2,7 +2,7 @@
 Music Theory Quiz is a simple multiple choice answers music theory quiz with images.  It's aim is to test the user's knowledge of music theory.  
 <br>
 
-This is the live site: [music-theory-symbol-quiz](https://8000-caitriona71-musictheory-al09nogg78y.ws-eu89b.gitpod.io/)
+This is the live site: [music-theory-symbol-quiz](https://caitriona71.github.io/music-theory-symbol-quiz/)
 
 ## **Features**
 A relevant background image, a "How to play" section lists the rules for how to play the game, a "start game" button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects an answer, a "restart game" button which appears when the user has finished the quiz and alert messages informing the user whether they have selected the correct answer and alerting them when the game is over.
@@ -14,7 +14,7 @@ A relevant background image, a "How to play" section lists the rules for how to 
 ### **Imagery**
 <br>
 
-![background image](/assets/screenshots/background-image.jpg)
+![background image](/assets/screenshots/background-image3.jpg)
 
 * The background image is relevant to the theme of the site and was chosen over a plain colored background.
 <br>
@@ -82,7 +82,7 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 <br>
 ### ***W3C HTML Validator*** - HTML code was tested and returned no errors.
 
-![W3C HTML Validator Test](/assets/screenshots/html-validator.png)
+![W3C HTML Validator Test](https:/validator.w3.org/)
 <br>
 <br>
 ### ***W3C CSS Validator*** - CSS code was tested and returned no errors.
@@ -98,7 +98,7 @@ The site contains 10 multiple choice answer questions.  The user has the option 
 ## **Image Compression**
 ### ***Tinypng*** - Images were compressed with Tinypng.
 
-![TinyPng](/assets/screenshots/tinypng.png)
+![TinyPng](https://tinypng.com)
 <br>
 <br>
 ## **Deployment**
