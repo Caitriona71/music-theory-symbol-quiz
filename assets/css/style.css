@@ -130,6 +130,11 @@ div {
     float: left;
   }
 
+  #start-game-button {
+    position: absolute;
+  }
+
+
 
 }
 
