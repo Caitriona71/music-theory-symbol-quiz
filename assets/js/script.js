@@ -1,3 +1,6 @@
+// Declare variables
+// Questions
+
 const questions = [
   {
     question: 'What clef is this?',
@@ -68,6 +71,8 @@ let currentQuestionIndex;
 
 startGameButton.addEventListener('click', startGame);
 
+// Function to start game
+
 function startGame(event) {
   console.log(event);
   currentQuestionIndex = 0;
@@ -77,7 +82,8 @@ function startGame(event) {
   startGameButton.textContent = 'Restart Game';
 }
 
-  
+
+// Function to display the next question or end the game 
 function getNextQuestion() {
   if (currentQuestionIndex >= questions.length) {
     endGame();
@@ -88,6 +94,7 @@ function getNextQuestion() {
 }
 
 
+// Function to show the next question
 function showNextQuestion() {
   
   let currentQuestion = getNextQuestion();
@@ -129,7 +136,7 @@ choiceButton.id = choice;
   quizContainer.appendChild(choicesContainer);
 }
 
-
+// Function to check if answer is correct
 function checkAnswer(event) {
   let clickedButton = event.currentTarget;
 
@@ -150,7 +157,7 @@ function checkAnswer(event) {
   showNextQuestion();
 }
 
-
+// Function to end the game and display the start game button
 function endGame() {
   alert('Game over');
 

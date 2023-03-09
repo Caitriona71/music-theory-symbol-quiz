@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Multiple Choice Music Theory Quiz">
-    <meta name="keywords" content="music quiz, music theory quiz">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Multiple Choice Music Theory Quiz" />
+        <meta name="keywords" content="music quiz, music theory quiz" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet" />
 
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- CSS stylesheet -->
+        <link rel="stylesheet" href="assets/css/style.css" />
 
-    <!-- Page title -->
-    <title>Music Quiz</title>
+        <!-- Page title -->
+        <title>Music Quiz</title>
+    </head>
+    <body>
+        <!-- Main section -->
+        <main id="main-section">
+            <!-- Rules section -->
+            <section id="rules">
+                <div id="rules-container">
+                    <h3><i>How to Play</i></h3>
+                    <span><strong>1.</strong> Try the quiz to test your knowledge of music theory</span><br />
+                    <span><strong>2.</strong> There are 10 multiple choice questions</span><br />
+                    <span><strong>3.</strong> Answer each question by selecting an answer from the 4 multiple choice options</span><br />
+                    <span><strong>4.</strong> Select "restart game" to start the quiz again</span>
+                </div>
+            </section>
 
-</head>
-<body>
+            <!-- Header -->
+            <header>
+                <h1>Music Theory Quiz</h1>
+            </header>
 
-     <!-- Main section -->
-    <main id="main-section">
+            <!-- Start game button -->
+            <button id="start-game-button">Start Game</button>
 
-    <!-- Rules section -->
-    <section id="rules">
-        <div id="rules-container">
-            <h3><i>How to Play</i></h3>
-            <span><strong>1.</strong> Try the quiz to test your knowledge of music theory</span><br>
-            <span><strong>2.</strong> There are 10 multiple choice questions</span><br>
-            <span><strong>3.</strong> Answer each question by selecting an answer from the 4 multiple choice options</span><br>
-            <span><strong>4.</strong> Select "restart game" to start the quiz again</span>    
-        </div>
-    </section>
-
-    <!-- Header -->
-    <header>
-        <h1>Music Theory Quiz</h1>
-    </header>
-
-    <!-- Start game button -->
-    <button id='start-game-button'>Start Game</button>
-
-    <!-- Quiz and question container -->
-    <div id='quiz-container'>
-        <div id='question-container'></div>
-    </div>
-    </main>
-<!-- JS script -->
-<script src="assets/js/script.js"></script>
-
-</body>
-
+            <!-- Quiz and question container -->
+            <div id="quiz-container">
+                <div id="question-container"></div>
+            </div>
+        </main>
+        <!-- JS script -->
+        <script src="assets/js/script.js"></script>
+    </body>
 </html>
