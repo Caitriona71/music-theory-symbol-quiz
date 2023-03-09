@@ -1,12 +1,17 @@
+/* body  */
+
 body {
     background-image: url("../screenshots/background-image3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
+    min-height: 100vh;
     padding-bottom: 25px;
     text-align: center;
 }
+
+/* Rules */
 
 #rules-container {
   text-align: left;

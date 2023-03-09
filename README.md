@@ -5,7 +5,7 @@ Music Theory Quiz is a simple multiple choice answers music theory quiz with ima
 This is the live site: [music-theory-symbol-quiz](https://caitriona71.github.io/music-theory-symbol-quiz/)
 
 ## **Features**
-A relevant background image, a "How to play" section lists the rules for how to play the game, a "start game" button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects an answer, a "restart game" button which appears when the user has finished the quiz and alert messages informing the user whether they have selected the correct answer and alerting them when the game is over.
+A relevant background image, a "How to play" section lists the instructions for how to play the game, a "start game" button, a quiz of 10 questions with images displayed pertaining to each question together with four multiple choice answer options from which the user selects an answer, a "restart game" button which appears when the user has finished the quiz and alert messages informing the user whether they have selected the correct answer and alerting them when the game is over.
 <br>
 
 ## **Design**
