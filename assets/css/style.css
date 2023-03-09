@@ -107,7 +107,7 @@ div {
 
 /* Media queries */
 
-@media only screen and (min-width: 650px) {
+/*@media only screen and (min-width: 650px) {
   /* For tablets: */
   /*main > section {
     top: 125px;
