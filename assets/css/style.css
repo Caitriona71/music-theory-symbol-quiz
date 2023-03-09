@@ -22,6 +22,8 @@ body {
   width: 550px;
 }
 
+/* Header */
+
 header {
     font-family: 'Boogaloo', cursive;
     height: 100px;
@@ -39,6 +41,8 @@ h1 {
 h3 {
     text-align: center;
   }
+
+/* Game buttons */
 
 button {
     display: inline-block;
@@ -58,6 +62,8 @@ button {
     color: #ffffff;
   }
 
+/* Start game button */
+
 #start-game-button {
     margin-bottom: 20px;
     margin-top: 10px;
@@ -69,6 +75,8 @@ button {
     background-color: goldenrod;
     border: 2px solid #ffffff;
   }
+
+/* quiz image container */
 
 #quiz-container > img {
     margin: 5px auto;
@@ -82,6 +90,8 @@ button {
     border-radius: 5px;
     background-color: #ffffff;
   }
+
+/* question container */
 
 #question-container {
     margin: 5px auto;
@@ -111,13 +121,17 @@ div {
 }
 
 /* Media queries */
+ /* For mobiles */
 
-/*@media only screen and (min-width: 650px) {
-  /* For tablets: */
-  /*main > section {
-    top: 125px;
+@media only screen and (max-width: 500px) {
+ 
+  #rules-container {
+    width: 450px;
   }
-}*/
+
+
+}
+
 
 
 
