@@ -14,11 +14,11 @@ body {
 /* Rules */
 
 #rules-container {
-  text-align: left;
   border: 3px solid goldenrod;
   border-radius: 10px;
   margin: 0 auto;
   padding: 16px 32px;
+  text-align: left;
   width: 550px;
 }
 
@@ -27,15 +27,15 @@ body {
 header {
     font-family: 'Boogaloo', cursive;
     height: 100px;
-    max-width: 1268px;
     margin: 0 auto;
+    max-width: 1268px;
   }
 
 h1 {
     color: #ffffff;
-    text-align: center;
     font-size: 350%;
     margin: 50px auto; 
+    text-align: center;
   }
 
 h3 {
@@ -45,15 +45,14 @@ h3 {
 /* Game buttons */
 
 button {
-    display: inline-block;
-    margin: 10px;
-    width: 250px;
-    height: 40px;
-    border-radius: 0;
     background-color: goldenrod;
     border: 2px solid #ffffff;
     border-radius: 10px;
+    display: inline-block;
     font-size: 20px;
+    height: 40px;
+    margin: 10px;
+    width: 250px;
   }
 
  button:hover {
@@ -65,39 +64,39 @@ button {
 /* Start game button */
 
 #start-game-button {
-    margin-bottom: 20px;
-    margin-top: 10px;
-    display: block;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     background-color: goldenrod;
     border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: relative;
   }
 
 /* quiz image container */
 
 #quiz-container > img {
-    margin: 5px auto;
-    margin-top: 30px;
-    display: block;
-    width: 300px;
-    height: 150px;
-    object-fit: contain;
-    position: relative;
+    background-color: #ffffff;
     border: 10px solid goldenrod;
     border-radius: 5px;
-    background-color: #ffffff;
+    display: block;
+    height: 150px;
+    margin: 5px auto;
+    margin-top: 30px;
+    object-fit: contain;
+    position: relative;
+    width: 300px;
   }
 
 /* question container */
 
 #question-container {
-    margin: 5px auto;
     display: block;
-    width: 300px;
+    margin: 5px auto;
     position: relative;
+    width: 300px;
 }
 
 div {
@@ -107,12 +106,12 @@ div {
 }
 
 #choices-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 700px;
     justify-content: center;
-    align-items: center;
+    max-width: 700px;
   }
 
 #correct-answers {
