@@ -152,10 +152,10 @@ function checkAnswer(event) {
   } else {
     alert('Wrong');
   }
-}
 
   currentQuestionIndex = currentQuestionIndex + 1;
   showNextQuestion();
+}
 
 // Function to end the game and display the start game button
 function endGame() {
